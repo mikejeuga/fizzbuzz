@@ -12,4 +12,8 @@ describe "fizzbuzz" do
   it 'returns "fizzbuzz"' do
     expect(fizzbuzz(15)).to eq "fizzbuzz"
   end
+
+  it "returns number otherwise" do
+    expect(fizzbuzz(7)).to eq 7
+  end
 end
